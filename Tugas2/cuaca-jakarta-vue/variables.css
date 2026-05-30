@@ -1,0 +1,39 @@
+/* ============================================================
+ *  variables.css  —  Tema & CSS Custom Properties
+ * ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* Ionic color overrides */
+  --ion-background-color:        #0b0f1a;
+  --ion-text-color:              #e2e8f0;
+  --ion-toolbar-background:      #131929;
+  --ion-item-background:         #1a2235;
+  --ion-border-color:            #243050;
+  --ion-color-primary:           #38bdf8;
+  --ion-color-primary-contrast:  #0b0f1a;
+
+  /* Custom design tokens */
+  --c-bg:       #0b0f1a;
+  --c-surface:  #131929;
+  --c-card:     #1a2235;
+  --c-border:   #243050;
+  --c-accent:   #38bdf8;
+  --c-accent2:  #818cf8;
+  --c-hot:      #fb923c;
+  --c-warm:     #facc15;
+  --c-cool:     #38bdf8;
+  --c-cold:     #a78bfa;
+  --c-text:     #e2e8f0;
+  --c-muted:    #64748b;
+
+  --font-body: 'Sora', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* { box-sizing: border-box; }
+
+ion-content { --background: var(--c-bg); }
+ion-toolbar { --background: var(--c-surface); }
+ion-title   { font-family: var(--font-body); font-weight: 700; }

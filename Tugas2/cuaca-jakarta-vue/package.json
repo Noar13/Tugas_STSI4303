@@ -1,0 +1,22 @@
+{
+  "name": "cuaca-jakarta-vue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplikasi Prakiraan Cuaca Jakarta menggunakan Ionic + Vue 3",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ionic/vue": "^7.8.0",
+    "@ionic/vue-router": "^7.8.0",
+    "ionicons": "^7.4.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.2.0"
+  }
+}
